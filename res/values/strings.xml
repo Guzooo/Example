@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Example</string>
+    <string name="year_of_release">2021</string>
 </resources>

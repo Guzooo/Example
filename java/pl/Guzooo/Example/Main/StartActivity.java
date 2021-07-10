@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import pl.Guzooo.Example.Elements.BusinessCardActivity;
+import pl.Guzooo.Example.Elements.FullScreenActivity;
 import pl.Guzooo.Example.R;
 
 public class StartActivity extends AppCompatActivity {
@@ -19,6 +20,11 @@ public class StartActivity extends AppCompatActivity {
 
     public void onClickBusinessCard(View v){
         Intent intent = new Intent(this, BusinessCardActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickFullScreen(View v){
+        Intent intent = new Intent(this, FullScreenActivity.class);
         startActivity(intent);
     }
 }

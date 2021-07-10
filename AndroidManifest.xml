@@ -20,6 +20,10 @@
             android:name=".Elements.BusinessCardActivity"
             android:label="@string/business_card">
         </activity>
+        <activity
+            android:name=".Elements.FullScreenActivity"
+            android:label="@string/full_screen">
+        </activity>
     </application>
 
 </manifest>

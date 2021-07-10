@@ -5,24 +5,24 @@
     <item
         android:icon="@drawable/ic_web"
         android:title="@string/website"
-        android:titleCondensed="https://www.google.pl/"
+        android:titleCondensed="https://www.google.pl"
         app:showAsAction="always"/>
 
     <item
         android:icon="@drawable/ic_facebook"
         android:title="@string/facebook"
-        android:titleCondensed="https://www.facebook.com/"
+        android:titleCondensed="https://www.facebook.com"
         app:showAsAction="always"/>
 
     <item
         android:icon="@drawable/ic_messenger"
         android:title="@string/messenger"
-        android:titleCondensed="https://www.messenger.com/"
+        android:titleCondensed="https://www.messenger.com"
         app:showAsAction="always"/>
 
     <item
         android:icon="@drawable/ic_instagram"
         android:title="@string/instagram"
-        android:titleCondensed="https://www.instagram.com/"
+        android:titleCondensed="https://www.instagram.com"
         app:showAsAction="always"/>
 </menu>

@@ -18,12 +18,13 @@
         </activity>
         <activity
             android:name=".Elements.BusinessCardActivity"
-            android:label="@string/business_card">
-        </activity>
+            android:label="@string/business_card"/>
         <activity
             android:name=".Elements.FullScreenActivity"
-            android:label="@string/full_screen">
-        </activity>
+            android:label="@string/full_screen"/>
+        <activity
+            android:name=".Elements.SettingsActivity"
+            android:label="@string/settings"/>
     </application>
 
 </manifest>

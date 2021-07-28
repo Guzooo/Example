@@ -1,14 +1,13 @@
 package pl.Guzooo.Example.Elements;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 
 import pl.Guzooo.Base.Elements.BusinessCard;
+import pl.Guzooo.Base.ModifiedElements.GActivity;
 import pl.Guzooo.Example.R;
 
-public class BusinessCardActivity extends AppCompatActivity {
+public class BusinessCardActivity extends GActivity {
 
     BusinessCard bc1;
     BusinessCard bc2;

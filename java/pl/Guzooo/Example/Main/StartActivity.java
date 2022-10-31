@@ -16,7 +16,7 @@ public class StartActivity extends GActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ThemeUtils.setTheme(this);
+        ThemeUtils.setThemeBasedSavedData(this);
         setContentView(R.layout.activity_start);
     }
 

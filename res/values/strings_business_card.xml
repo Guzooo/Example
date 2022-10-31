@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="business_card">Business Card</string>
-    <string name="single_card">Single Card</string>
-    <string name="double_card">Double Card</string>
-    <string name="without_trigger_card">Card Without Trigger</string>
+    <string name="rounded_card">Rounded Card</string>
+    <string name="full_card">Full Card</string>
+    <string name="rounded_cards_triggered">Rounded Cards Triggered by Logo</string>
+    <string name="full_cards_triggered">Full Cards Triggered by Logo</string>
 </resources>

@@ -2,6 +2,7 @@ package pl.Guzooo.Example.Elements;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowInsets;
 
 import androidx.core.view.OnApplyWindowInsetsListener;
 import androidx.core.view.WindowInsetsCompat;
@@ -58,18 +59,18 @@ public class FullScreenActivity extends GActivity {
     private void setMainScrollPadding(WindowInsetsCompat insets){
         mainScroll.setPadding(
                 mainScroll.getLeft(),
-                mainScroll.getTop() + insets.getSystemWindowInsetTop(),
+                mainScroll.getTop() + WindowInsetsCompat.Type.systemBars(),
                 mainScroll.getRight(),
-                mainScroll.getBottom() + insets.getSystemWindowInsetBottom()
+                mainScroll.getBottom() + WindowInsetsCompat.Type.systemBars()
         );
     }
 
     private void setOtherScrollPadding(WindowInsetsCompat insets){
         for(View v : otherScrolls)
             v.setPadding(
-                    v.getLeft() + insets.getSystemWindowInsetLeft(),
+                    v.getLeft() + WindowInsetsCompat.Type.systemBars(),
                     v.getTop(),
-                    v.getRight() + insets.getSystemWindowInsetRight(),
+                    v.getRight() + WindowInsetsCompat.Type.systemBars(),
                     v.getBottom()
             );
     }
